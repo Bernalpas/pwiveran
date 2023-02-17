@@ -1,0 +1,99 @@
+
+/* Reseteo de CSS: es poner en cero los valores */
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+
+/* Estilos apuntando a las Etiquetas */
+header{
+    background-color: aqua;
+}
+
+p{
+    color: blue;
+}
+
+ul{
+    text-align: center;
+}
+
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Estilos apuntando a las clases */
+.nuevoParrafo{
+    color: red;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.tituloUno{
+    background-color: rgb(194, 194, 239);
+    text-align: end;
+}
+
+.tituloDos{
+    background-color: rgb(204, 244, 204);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 150px;
+    border-top: 5px solid black;
+    border-right: 8px dashed red;
+    height: 200px;
+    width: 350px;
+}
+
+.especial{
+    font-style: italic;
+    font-size: bold;
+    color: red;
+}
+
+
+
+/* Estilos por ID de cada etiqueta */
+#ultimo{
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+}
+
+#tituloTres{
+    background-color: rgb(243, 196, 196);
+    text-align: left;
+}
+

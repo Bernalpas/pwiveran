@@ -1,0 +1,10 @@
+
+##No subimos carpetas 
+/zolamundo
+
+##No subimos archivos .txt
+*.txt
+
+##No subimos archivos un único archivo .js
+hola.js
+

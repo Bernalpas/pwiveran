@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <!-- 2. Sergunda forma de darle estilos a una página web -->
+    <style>
+        body{
+            background-color: rgb(152, 152, 213);
+        }
+        header{
+            background-color: white;
+        }
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h2>
+            Bienvenido al formulario de nuestra App
+        </h2>
+    </header>
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="./productos.html">
+                    Productos
+                </a>
+            </li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./sucursales.html">Sucursales</a></li>
+            <li><a href="./pagos.html">Pagos</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <h1>
+            Buenas!! Soy la Página de Servicios
+        </h1>
+        <h2>
+            Formularios - Todos los datos son obligatorios
+        </h2>
+
+        <!-- Etiquetas para los Formularios --> 
+        <form action="" method="get" id="formulario" name="formualario">
+            <!-- Label: es la info que le damos al usuario para introducir datos -->
+            <label for="nombre">Nombre: </label>
+
+            <!-- input: espacio para que el usuario introduzca datos que necesitamos - requerid: obligatorio -->
+            <input type="text" id="nombre" name="nombre" required>
+
+            <br>
+
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required>
+
+            <br>
+
+            <label for="edad">Edad: </label>
+            <input type="number" name="edad" id="edad">
+
+            <br>
+
+            <label for="genero">Género:</label>
+            <br>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="hombre">
+
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="genero" value="mujer">
+
+            <label for="otro">Otro</label>
+            <input type="radio" name="genero" value="otro">
+
+            <br>
+
+            <label for="provincia">Provincia: </label>
+            <select name="provincia" id="provincia">
+                <option value="CABA">CABA</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Salta">Salta</option>
+            </select>
+
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+
+            <br>
+
+            <label for="fecha">Fecha: </label>
+            <input type="date" name="date" id="date">
+
+            <br>
+
+            <label for="confirma">Acepta los Términos y condiciones</label>
+            <input type="checkbox" name="confirma" id="confirma" value="1">
+
+            <br>
+
+            <!-- Input de tipo botón para envío de datos -->
+            <input type="submit" class="button" value="Enviar">
+
+            <br>
+
+            <!-- Etiquetas de botones - envío de datos -->
+            <button type="submit">Envío de Datos</button>
+
+            <!-- Boton para reseter el form -->
+            <button type="reset">Borrar Formulario</button>
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

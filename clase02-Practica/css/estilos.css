@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blanco{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    background-color: #3573D6;
+    height: 80px;
+}
+
+.navbar{
+    background-color: #1F3354;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar li a{
+    color: #fff;
+    display: block;
+    padding: 15px;
+}
+
+.navbar li a:hover{
+    background: #fff;
+    color: #1F3354;
+}
+
+.menuPrincipal{
+    text-align: right;
+}
+
+
+.footer{
+    background-color: #94B4E7;
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+

@@ -1,0 +1,16 @@
+
+
+.ordenar{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+
+p{
+    width: 250px;
+}

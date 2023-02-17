@@ -1,0 +1,46 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    color: #827373;
+    background-color: #e493f3;
+}
+
+.menu{
+    width: 300px;
+    margin: 30px auto;
+}
+
+.menuCentral{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+#titulo{
+    text-transform: uppercase;
+    color:#827373;
+    text-align: center;
+}
+
+.lista{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+li:hover{
+    background-color: #bbe8bb;
+    color: rgb(9, 47, 4);
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil img{
+    width: 80px;
+    height: 80px;
+}
