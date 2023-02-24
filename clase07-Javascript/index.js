@@ -226,10 +226,8 @@ if(compra){
     console.log(`Tu carrito tiene ${productos} productos comprado/s`);
 }
 
-
 console.log('================================================');
 console.log('================================================');
-
 
 //Contenedor
 let totalSuper = 0;
@@ -244,8 +242,4 @@ console.log(`El total a pagar es de: ${totalSuper} pesos`);
 let carnes = 2500;
 totalSuper += carnes;
 console.log(`El total a pagar es de: ${totalSuper} pesos`);
-
-
-
-
 
