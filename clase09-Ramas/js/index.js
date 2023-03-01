@@ -60,10 +60,31 @@ console.log('Los alumnos son: ', alumnos);
 
 function agregar() {
     let dato = document.getElementById('nombre').value;
+    let formulario = document.getElementById('formulario');
     console.log(dato);
     alumnos.push(dato);
     console.log('Los alumnos son: ', alumnos);
+    formulario.reset();
 }
+
+
+//Bucles
+//For - Para - recorre los arreglos
+//1. variable para iterar
+//2. límite para no crear un bucle infinito
+//3. paso ++ incremento de uno en uno
+
+
+for(let i = 0; i < 10; i++) {
+    console.log(`Contamos desde 0 hasta 10 = ${[i]}`);
+}
+
+for(let i = 0; i < alumnos.length; i++) {
+    console.log(`Los alumnos de la institución son: ${alumnos[i]}`);
+}
+
+
+
 
 
 
