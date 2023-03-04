@@ -1,8 +1,5 @@
 
 
-
-
-
 let productos = 100;//contador
 let costoTotal = 0;//contenedor
 
