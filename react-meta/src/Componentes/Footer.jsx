@@ -7,10 +7,10 @@ function Footer() {
         <footer>
             <address className="footer">
                 <p>
-                    Contactos al mail pepe@gmail.com
+                    Contactos al mail <a href="mailto:pepe@gmail.com">pepe@gmail.com</a> 
                 </p>
                 <p>
-                    Teléfono: 123456789
+                    Teléfono: <a href="tel:123456789">123456789</a>
                 </p>
                 <p>
                     Creado por ®UTN-2023

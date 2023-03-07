@@ -3,7 +3,7 @@ import '../App.css'
 
 
 /* Componente de Tipo Clase */
-class Navbar extends Component {
+export default class Navbar extends Component {
     render() {
         return(
             <nav className="navegacion">
@@ -19,4 +19,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+//export default Navbar;
