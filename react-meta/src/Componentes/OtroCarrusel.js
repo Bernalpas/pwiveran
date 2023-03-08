@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import deportes from '../assets/imagen-deportes.jpg'
 
 
-function OtroCarrusel() {
+function OtroCarrusel(props) {
   return (
     <Carousel className='container'>
       <Carousel.Item>
@@ -12,7 +12,7 @@ function OtroCarrusel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>{props.titulo}</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

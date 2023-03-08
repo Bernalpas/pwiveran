@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+/* Importamos las librerías para el ruteo */
+import {
+  Routes,
+  Route
+} from 'react-router-dom'
+import Layout from './Componentes/Layout';
+import Home from './Componentes/Home';
+import Productos from './Componentes/Productos';
+import Formulario from './Componentes/Formulario';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+
+    <div>
+    
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={ <Home /> }></Route>
+        <Route path="/productos" element={ <Productos />}></Route>
+        <Route path="/formulario" element={ <Formulario /> }></Route>
+      </Route>
+    </Routes>
+
+    
+
     </div>
   );
 }

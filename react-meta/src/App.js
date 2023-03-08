@@ -5,7 +5,8 @@ import Carrusel from './Componentes/Carrusel';
 import OtroCarrusel from './Componentes/OtroCarrusel';
 
 
-let empresa = 'Empresa UTN - Venta'
+let empresa = 'Empresa UTN - Venta';
+let pais = 'Argentina';
 
 
 function App() {
@@ -20,10 +21,14 @@ function App() {
 
       <Carrusel />
 
-      {/* Llamamos al Main */}
-      <Main />
+      {/* Llamamos al Main y le pasamos los props o argumentos al componente */}
+      <Main 
+        apellido="Pérez" 
+        provincia="Salta" 
+        pais={pais}
+      />
 
-      <OtroCarrusel />
+      <OtroCarrusel titulo="Primer Producto" />
       {/* Llamamos al componente Footer */}
       <Footer />
     </div>
